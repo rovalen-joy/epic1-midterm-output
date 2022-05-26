@@ -2,7 +2,6 @@
 import turtle  
 
 class Draw:
-
     mandala = turtle.Turtle()              
     window = turtle.Screen()               
     
@@ -25,9 +24,7 @@ class Draw:
 class DrawMandala(Draw):
     
     color = []
-
     def loopMandala(self, color):
-
         Draw.__init__(self)
         Draw.setMandala(self)
 
@@ -54,7 +51,6 @@ class DrawMandala(Draw):
     def hideTurtleGraphics(self):
         self.mandala.hideturtle()                                      
         turtle.done()                                                   
-
 
 color = ['dark orange','deep pink', 'dark orchid']    
 obj = DrawMandala()                 
